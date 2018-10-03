@@ -1,0 +1,13 @@
+{
+  "name": "act_icma",
+  "version": "0.1.0",
+  "repo": "hcnn/act_icma",
+  "description": "Date difference in years according to the Actual/Actual ICMA daycount method",
+  "keywords": ["daycount", "date difference", "year fraction", "Act/Act ICMA", "Actual/Actual ICMA", "ISMA-99", "Act/Act ISMA"],
+  "license": "MIT",
+  "src": ["act_icma.c", "act_icma.h"],
+  "dependencies": {
+    "hcnn/act_isda": "0.1.0",
+    "hcnn/julianday": "0.1.0"
+  }
+}
